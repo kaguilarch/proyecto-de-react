@@ -9,8 +9,8 @@ const BDD = [
     "marca":"deayer",
     "modelo":"Estandar",
     "precio":1200,
-    "stock":4,
-    "img":"img/aleron2.jpg"
+    "stock":1,
+    "img":"img/aleron1.jpg"
     },
 
     {
@@ -393,6 +393,7 @@ const ItemListContainer = () => {
     const [productos, setProductos] = useState([])
 
     useEffect(()=>{
+
         const promesa =() => new Promise((resolve,reject)=>{
             if(true){
                 resolve(BDD)
@@ -401,15 +402,16 @@ const ItemListContainer = () => {
         })
         promesa(true)
         .then(productos => {
-            const items = <ItemList key={productos.id} productos={productos}/>
-            setProductos(items)
+            const productosFiltrados = productos.filter(prod=> prod.stock >0)
+            setProductos(productosFiltrados)
 
         })
         .catch(error => console.log(error))
     },[])
     return(
-        <div className="container row justify-content-md-around ">
-            {productos}
+        
+        <div className="container gap-3 mt-4 row justify-content-md-around ">
+            {<ItemList productos={productos}/>}
         </div>
     )
 }
