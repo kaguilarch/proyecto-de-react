@@ -1,14 +1,13 @@
 import React from "react";
-import NavBar from "./Components/NavBar/NavBar";
-import CartWidget from "./Components/assets/CardWidget";
-
+import NavBar from "./Components/NavBar/NavBar"
+import ItemCount from "./Components/ItemCount/ItemCount"
 
 
 function App () {
   return(
     <div className="container">
       <NavBar/>
-      <CartWidget/>
+      <ItemCount/>
     </div>
   )
 }

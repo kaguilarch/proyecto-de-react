@@ -1,4 +1,4 @@
-import CartWidget from "../assets/CardWidget";
+import CartWidget from "../CardWidget/assets/CardWidget";
 import React from "react";
 
 const NavBar = () =>{
@@ -79,7 +79,7 @@ const NavBar = () =>{
                     </form>
                 </div>
                 
-                <CartWidget/>                
+                <CartWidget cantCarrito={0} />                
             </div>
         </nav>
     );
