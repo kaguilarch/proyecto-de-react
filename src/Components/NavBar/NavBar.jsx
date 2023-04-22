@@ -6,7 +6,7 @@ const NavBar = () =>{
         <nav className="navbar navbar-expand-lg bg-primary">
             <div className="container-fluid d-flex">
                  <a className=" text-light navbar-brand " href="../../index.htlm">
-                   <img src="https://th.bing.com/th/id/R.70f42c8e2d2ac9c42c0415f2bfc25f69?rik=A2IQx31YJ878Qw&riu=http%3a%2f%2fpartesurgentes.com%2fwp-content%2fuploads%2f2015%2f10%2fcropped-icono-carro.png&ehk=SUBN%2bITn7FcCX5mw6v%2b2H1X1aux9nIsqmetp1CeEq9E%3d&risl=&pid=ImgRaw&r=0" alt="logo" width="44" height="38" class="d-inline-block align-text-top"></img>  Repuestos Aguilar
+                   <img src="https://th.bing.com/th/id/R.70f42c8e2d2ac9c42c0415f2bfc25f69?rik=A2IQx31YJ878Qw&riu=http%3a%2f%2fpartesurgentes.com%2fwp-content%2fuploads%2f2015%2f10%2fcropped-icono-carro.png&ehk=SUBN%2bITn7FcCX5mw6v%2b2H1X1aux9nIsqmetp1CeEq9E%3d&risl=&pid=ImgRaw&r=0" alt="logo" width="44" height="38" className="d-inline-block align-text-top"></img>  Repuestos Aguilar
                 </a>
                 <button className="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#navbarSupp rtedContent"aria-controls="navbarSupportedContent"aria-expanded="false"aria-label="Toggle   navigation">
                     <span className="navbar-toggler-icon" />

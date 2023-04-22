@@ -1,11 +1,13 @@
 import React from "react";
+
 import NavBar from "./Components/NavBar/NavBar"
 import ItemCount from "./Components/ItemCount/ItemCount"
 import ItemListContainer from "./Components/ItemListContainer/ItemListContainer"
 import ItemList from "./Components/ItemList/ItemList";
+
 function App () {
   return(
-    <div className="container">
+    <>
       <NavBar/>
       <ItemList productos={[
         {
@@ -20,7 +22,7 @@ function App () {
           },
       
           {
-          id:2,
+          "id":2,
           "idCategoria":"Aleron",
           "nombre":"Alerones",
           "marca":"",
@@ -32,7 +34,7 @@ function App () {
       ]}/>
       <ItemCount ValInicial={1} stock={15}/>
       <ItemListContainer/>
-    </div>
+    </>
   )
 }
  export default App;
