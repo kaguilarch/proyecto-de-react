@@ -1,0 +1,388 @@
+[   
+    {
+    "id":1,
+    "idCategoria":"Aleron",
+    "nombre":"Alerones",
+    "marca":"deayer",
+    "modelo":"Estandar",
+    "precio":1200,
+    "stock":4,
+    "img":"img/aleron_2.jpg"
+    },
+
+    {
+    "id":1,
+    "idCategoria":"Aleron",
+    "nombre":"Alerones",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":7,
+    "img":"img/aleron_2.jpg"
+    },
+
+    {
+    "Id":1,
+    "idCategoria":"Aleron",
+    "nombre":"Alerones",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":1,
+    "img":"img/aleron_3.jpg"
+
+    },
+
+    {
+    "id":1,
+    "idCategoria":"Aleron",
+    "nombre":"Alerones",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":5,
+    "img":"img/aleron4.jpg"
+    },
+
+    {
+    "id":1,
+    "idCategoria":"Aleron",
+    "nombre":"Alerones",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":8,
+    "img":"img/aleron_5.jpg"
+    },
+
+    {
+    "id":2,
+    "idCategoria":2,
+    "nombre":"Difusor",
+    "marca":"",
+    "modelo":"",
+    "precio":7,
+    "stock":22,
+    "img":"img/difusor_1.jpg"  
+    },
+
+    {
+    "id":2,
+    "idCategoria":2,
+    "nombre":"Difusor",
+    "marca":"",
+    "modelo":"",
+    "precio":7,
+    "stock":22,
+    "img":"img/difusor_2.jpg" 
+    },
+
+    {
+    "id":2,
+    "idCategoria":2,
+    "nombre":"Difusor",
+    "marca":"",
+    "modelo":"",
+    "precio":7,
+    "stock":22,
+    "img":"img/difusor_3.jpg" 
+    },
+
+    {
+    "Id":3,
+    "IdCategoria":3,
+    "nombre":"Radios y Pantallas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":6,
+    "img":"img/radio_1.jpg"
+    },
+
+    {
+    "Id":3,
+    "IdCategoria":"Radios y Pantallas",
+    "nombre":"Radios y Pantallas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":2,
+    "img":"img/radio_2.jpg"
+    },
+
+    {
+    "id":3,
+    "idCategoria":"Radios y Pantallas",
+    "nombre":"Radios y Pantallas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":2,
+    "img":"img/radio_3.jpg"
+    },
+
+    {
+    "id":3,
+    "idCategoria":"Radios y Pantallas",
+    "nombre":"Radios y Pantallas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":6,
+    "img":"img/radio_4.jpg"
+    },
+
+    {
+    "id":3,
+    "idCategoria":"Radios y Pantallas",
+    "nombre":"Radios y Pantallas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":1,
+    "img":"img/radio_5.jpg"
+    },
+
+    {
+    "id":"4",
+    "idCategoria":"Rines",
+    "nombre":"Rin",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":4,
+    "img":"img/rines_1.jpg"
+    },
+
+    {
+    "id":"4",
+    "idCategoria":"Rines",
+    "nombre":"Rin",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":4,
+    "img":"img/rines_2.jpg"
+    },
+
+    {
+    "id":"4",
+    "idCategoria":"Rines",
+    "nombre":"Rin",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":4,
+    "img":"img/rines_3.jpg"
+    },
+
+    {
+    "id":"4",
+    "idCategoria":"Rines",
+    "nombre":"Rin",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":4,
+    "img":"img/rines_4.jpg"
+    },
+
+    {
+    "id":"4",
+    "idCategoria":"Rines",
+    "nombre":"Rin",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":4,
+    "img":"img/rines_5.jpg"
+    },
+
+    {
+    "id":"4",
+    "idCategoria":"4",
+    "nombre":"Rines",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":30,
+    "img":"img/rines_6.jpg"
+    },
+
+    {
+    "id":5,
+    "idCategoria": "Aceite",
+    "nombre": "Aceites",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": 6,
+    "img": "img/aceite-1.jpg"
+    },
+
+    {
+    "id":6,
+    "idCategoria":"Aceite",
+    "nombre": "Aceites",
+    "marca": "",
+    "modelo": "",
+    "precio": "",
+    "stock": 4,
+    "img": "img/aceite_2.jpg"
+    },
+
+    {
+    "id":7,
+    "idCategoria":"Aceite",
+    "nombre":"Aceites",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":1,
+    "img":"img/aceite_3.jpg"
+    },
+    
+    {
+    "id":8,
+    "idCategoria":"Aceite",
+    "nombre":"Aceites",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":3,
+    "img":"img/aceite_4.jpg"
+    },
+
+    {
+    "id":6,
+    "idCategoria":"Refrigerantes",
+    "nombre":"Refrigerante",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":4,
+    "img":"img/refri_1.jpg"
+    },
+
+    {
+    "id":6,
+    "idCategoria":"Refrigerantes",
+    "nombre":"Refrigerante",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":1,
+    "img":"img/refri_3.jpg"
+    },
+
+    {
+    "id":6,
+    "idCategoria":"Refrigerantes",
+    "nombre":"Refrigerante",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":2,
+    "img":"img/refri_2.jpg"
+    },
+    
+    {
+    "id":7,
+    "idCategoria":7,
+    "nombre":"Herramientas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":2,
+    "img":"img/h3.jpg"
+    },
+
+    {
+    "id":7,
+    "idCategoria":7,
+    "nombre":"Herramientas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":7,
+    "img":"img/h2.jpg"
+    },
+
+    {
+    "id":7,
+    "idCategoria":7,
+    "nombre":"Herramientas",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":4,
+    "img":"img/h1.jpg"
+    },
+
+    {
+    "id":8,
+    "idCategoria":"Asientos",
+    "nombre":"Asientos",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":10,
+    "img":"img/asientos_1.jpg"
+    },
+
+    {
+    "id":8,
+    "idCategoria":"Asientos",
+    "nombre":"Asientos",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":10,
+    "img":"img/asientos_2.jpg"
+    },
+
+    {
+    "id":8,
+    "idCategoria":"Asientos",
+    "nombre":"Asientos",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":10,
+    "img":"img/asientos_4.jpg"
+    },
+
+    {
+    "id":9,
+    "idCategoria":9,
+    "nombre":"Faros delanteros",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":20,
+    "img":"img/faros_3.jpg"
+    },
+
+    {
+    "id":9,
+    "idCategoria":9,
+    "nombre":"Faros delanteros",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":20,
+    "img":"img/faros_2.jpg"
+    },
+
+    {
+    "id":9,
+    "idCategoria":9,
+    "nombre":"Faros delanteros",
+    "marca":"",
+    "modelo":"",
+    "precio":"",
+    "stock":20,
+    "img":"img/faros_1.jpg"
+    }
+
+]
