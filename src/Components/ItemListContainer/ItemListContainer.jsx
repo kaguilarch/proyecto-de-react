@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import ItemList from "../ItemList/ItemList"
 
 const BDD = [   
     {
@@ -9,7 +10,7 @@ const BDD = [
     "modelo":"Estandar",
     "precio":1200,
     "stock":4,
-    "img":"img/aleron_2.jpg"
+    "img":"img/aleron2.jpg"
     },
 
     {
@@ -20,7 +21,7 @@ const BDD = [
     "modelo":"",
     "precio":1200,
     "stock":7,
-    "img":"img/aleron_2.jpg"
+    "img":"img/aleron2.jpg"
     },
 
     {
@@ -31,7 +32,7 @@ const BDD = [
     "modelo":"",
     "precio":1500,
     "stock":1,
-    "img":"img/aleron_3.jpg"
+    "img":"img/aleron3.jpg"
 
     },
 
@@ -54,7 +55,7 @@ const BDD = [
     "modelo":"",
     "precio":1700,
     "stock":3,
-    "img":"img/aleron_5.jpg"
+    "img":"img/aleron5.jpg"
     },
 
     {
@@ -65,7 +66,7 @@ const BDD = [
     "modelo":"",
     "precio":800,
     "stock":3,
-    "img":"img/difusor_1.jpg"  
+    "img":"img/difusor1.jpg"  
     },
 
     {
@@ -76,7 +77,7 @@ const BDD = [
     "modelo":"",
     "precio":800,
     "stock":5,
-    "img":"img/difusor_2.jpg" 
+    "img":"img/difusor2.jpg" 
     },
 
     {
@@ -87,7 +88,7 @@ const BDD = [
     "modelo":"",
     "precio":500,
     "stock":5,
-    "img":"img/difusor_3.jpg" 
+    "img":"img/difusor3.jpg" 
     },
 
     {
@@ -98,7 +99,7 @@ const BDD = [
     "modelo":"",
     "precio":500,
     "stock":6,
-    "img":"img/radio_1.jpg"
+    "img":"img/radio1.jpg"
     },
 
     {
@@ -109,7 +110,7 @@ const BDD = [
     "modelo":"",
     "precio":250,
     "stock":2,
-    "img":"img/radio_2.jpg"
+    "img":"img/radio2.jpg"
     },
 
     {
@@ -120,7 +121,7 @@ const BDD = [
     "modelo":"",
     "precio":250,
     "stock":2,
-    "img":"img/radio_3.jpg"
+    "img":"img/radio3.jpg"
     },
 
     {
@@ -131,7 +132,7 @@ const BDD = [
     "modelo":"",
     "precio":300,
     "stock":6,
-    "img":"img/radio_4.jpg"
+    "img":"img/radio4.jpg"
     },
 
     {
@@ -142,7 +143,7 @@ const BDD = [
     "modelo":"",
     "precio":700,
     "stock":1,
-    "img":"img/radio_5.jpg"
+    "img":"img/radio5.jpg"
     },
 
     {
@@ -153,7 +154,7 @@ const BDD = [
     "modelo":"",
     "precio":1440,
     "stock":4,
-    "img":"img/rines_1.jpg"
+    "img":"img/rines1.jpg"
     },
 
     {
@@ -164,7 +165,7 @@ const BDD = [
     "modelo":"",
     "precio":1200,
     "stock":4,
-    "img":"img/rines_2.jpg"
+    "img":"img/rines2.jpg"
     },
 
     {
@@ -175,7 +176,7 @@ const BDD = [
     "modelo":"",
     "precio":1500,
     "stock":4,
-    "img":"img/rines_3.jpg"
+    "img":"img/rines3.jpg"
     },
 
     {
@@ -186,7 +187,7 @@ const BDD = [
     "modelo":"",
     "precio":2000,
     "stock":4,
-    "img":"img/rines_4.jpg"
+    "img":"img/rines4.jpg"
     },
 
     {
@@ -197,7 +198,7 @@ const BDD = [
     "modelo":"",
     "precio":2000,
     "stock":4,
-    "img":"img/rines_5.jpg"
+    "img":"img/rines5.jpg"
     },
 
     {
@@ -208,7 +209,7 @@ const BDD = [
     "modelo":"",
     "precio":1700,
     "stock":4,
-    "img":"img/rines_6.jpg"
+    "img":"img/rines6.jpg"
     },
 
     {
@@ -219,7 +220,7 @@ const BDD = [
     "modelo": "",
     "precio": 80,
     "stock": 8,
-    "img": "img/aceite-1.jpg"
+    "img": "img/aceite1.jpg"
     },
 
     {
@@ -230,7 +231,7 @@ const BDD = [
     "modelo": "",
     "precio": 80,
     "stock": 8,
-    "img": "img/aceite_2.jpg"
+    "img": "img/aceite2.jpg"
     },
 
     {
@@ -241,7 +242,7 @@ const BDD = [
     "modelo":"",
     "precio":85,
     "stock":3,
-    "img":"img/aceite_3.jpg"
+    "img":"img/aceite3.jpg"
     },
     
     {
@@ -252,7 +253,7 @@ const BDD = [
     "modelo":"",
     "precio":85,
     "stock":3,
-    "img":"img/aceite_4.jpg"
+    "img":"img/aceite4.jpg"
     },
 
     {
@@ -263,7 +264,7 @@ const BDD = [
     "modelo":"",
     "precio":50,
     "stock":4,
-    "img":"img/refri_1.jpg"
+    "img":"img/refri1.jpg"
     },
 
     {
@@ -274,7 +275,7 @@ const BDD = [
     "modelo":"",
     "precio":50,
     "stock":1,
-    "img":"img/refri_3.jpg"
+    "img":"img/refri3.jpg"
     },
 
     {
@@ -285,7 +286,7 @@ const BDD = [
     "modelo":"",
     "precio":50,
     "stock":2,
-    "img":"img/refri_2.jpg"
+    "img":"img/refri2.jpg"
     },
     
     {
@@ -329,7 +330,7 @@ const BDD = [
     "modelo":"",
     "precio":600,
     "stock":6,
-    "img":"img/asientos_1.jpg"
+    "img":"img/asientos1.jpg"
     },
 
     {
@@ -340,7 +341,7 @@ const BDD = [
     "modelo":"",
     "precio":550,
     "stock":6,
-    "img":"img/asientos_2.jpg"
+    "img":"img/asientos2.jpg"
     },
 
     {
@@ -351,7 +352,7 @@ const BDD = [
     "modelo":"",
     "precio":1100,
     "stock":4,
-    "img":"img/asientos_4.jpg"
+    "img":"img/asientos4.jpg"
     },
 
     {
@@ -362,7 +363,7 @@ const BDD = [
     "modelo":"",
     "precio":350,
     "stock":4,
-    "img":"img/faros_3.jpg"
+    "img":"img/faros3.jpg"
     },
 
     {
@@ -373,7 +374,7 @@ const BDD = [
     "modelo":"",
     "precio":200,
     "stock":10,
-    "img":"img/faros_2.jpg"
+    "img":"img/faros2.jpg"
     },
 
     {
@@ -384,7 +385,7 @@ const BDD = [
     "modelo":"",
     "precio":170,
     "stock":8,
-    "img":"img/faros_1.jpg"
+    "img":"img/faros1.jpg"
     }
 
 ]
@@ -398,10 +399,19 @@ const ItemListContainer = () => {
             }
             reject("No tiene los permisos necesarios")
         })
-        promesa()
-        .then(productos => console.log(productos))
+        promesa(true)
+        .then(productos => {
+            const items = <ItemList key={productos.id} productos={productos}/>
+            setProductos(items)
+
+        })
         .catch(error => console.log(error))
-    })
+    },[])
+    return(
+        <div className="container row justify-content-md-around ">
+            {productos}
+        </div>
+    )
 }
 
 export default ItemListContainer
