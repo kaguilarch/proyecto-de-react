@@ -9,7 +9,7 @@ const ItemDetailContainer = () => {
         fetch('../json/productos.json')
             .then(response => response.json())
             .then(productos => {
-                const prod = productos.find(prod => prod.id === 1)
+                const prod = productos.find(prod => prod.id === 3)
                 setItem(prod)
             })
 
