@@ -6,10 +6,10 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState([])
 
     useEffect(() => {
-        fetch('./json/productos.json')
+        fetch('../json/productos.json')
             .then(response => response.json())
             .then(productos => {
-                const prod = productos.find(prod => prod.id === 12)
+                const prod = productos.find(prod => prod.id === 1)
                 setItem(prod)
             })
 

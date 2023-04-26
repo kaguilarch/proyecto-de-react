@@ -7,7 +7,7 @@
     "modelo":"Estandar",
     "precio":1200,
     "stock":4,
-    "img":"img/aleron2.jpg"
+    "img":"/img/aleron2.jpg"
     },
 
     {
@@ -18,7 +18,7 @@
     "modelo":"",
     "precio":1200,
     "stock":7,
-    "img":"img/aleron2.jpg"
+    "img":"/img/aleron2.jpg"
     },
 
     {
@@ -29,7 +29,7 @@
     "modelo":"",
     "precio":1500,
     "stock":1,
-    "img":"img/aleron3.jpg"
+    "img":"/img/aleron3.jpg"
 
     },
 
@@ -41,7 +41,7 @@
     "modelo":"",
     "precio":1500,
     "stock":5,
-    "img":"img/aleron4.jpg"
+    "img":"/img/aleron4.jpg"
     },
 
     {
@@ -52,7 +52,7 @@
     "modelo":"",
     "precio":1700,
     "stock":3,
-    "img":"img/aleron5.jpg"
+    "img":"/img/aleron5.jpg"
     },
 
     {
@@ -63,7 +63,7 @@
     "modelo":"",
     "precio":800,
     "stock":3,
-    "img":"img/difusor1.jpg"  
+    "img":"/img/difusor1.jpg"  
     },
 
     {
@@ -74,7 +74,7 @@
     "modelo":"",
     "precio":800,
     "stock":5,
-    "img":"img/difusor2.jpg" 
+    "img":"/img/difusor2.jpg" 
     },
 
     {
@@ -85,7 +85,7 @@
     "modelo":"",
     "precio":500,
     "stock":5,
-    "img":"img/difusor3.jpg" 
+    "img":"/img/difusor3.jpg" 
     },
 
     {
@@ -96,7 +96,7 @@
     "modelo":"",
     "precio":500,
     "stock":6,
-    "img":"img/radio1.jpg"
+    "img":"/img/radio1.jpg"
     },
 
     {
@@ -107,7 +107,7 @@
     "modelo":"",
     "precio":250,
     "stock":2,
-    "img":"img/radio2.jpg"
+    "img":"/img/radio2.jpg"
     },
 
     {
@@ -118,7 +118,7 @@
     "modelo":"",
     "precio":250,
     "stock":2,
-    "img":"img/radio3.jpg"
+    "img":"/img/radio3.jpg"
     },
 
     {
@@ -129,7 +129,7 @@
     "modelo":"",
     "precio":300,
     "stock":6,
-    "img":"img/radio4.jpg"
+    "img":"/img/radio4.jpg"
     },
 
     {
@@ -140,7 +140,7 @@
     "modelo":"",
     "precio":700,
     "stock":1,
-    "img":"img/radio5.jpg"
+    "img":"/img/radio5.jpg"
     },
 
     {
@@ -151,7 +151,7 @@
     "modelo":"",
     "precio":1440,
     "stock":4,
-    "img":"img/rines1.jpg"
+    "img":"/img/rines1.jpg"
     },
 
     {
@@ -162,7 +162,7 @@
     "modelo":"",
     "precio":1200,
     "stock":4,
-    "img":"img/rines2.jpg"
+    "img":"/img/rines2.jpg"
     },
 
     {
@@ -173,7 +173,7 @@
     "modelo":"",
     "precio":1500,
     "stock":4,
-    "img":"img/rines3.jpg"
+    "img":"/img/rines3.jpg"
     },
 
     {
@@ -184,7 +184,7 @@
     "modelo":"",
     "precio":2000,
     "stock":4,
-    "img":"img/rines4.jpg"
+    "img":"/img/rines4.jpg"
     },
 
     {
@@ -195,7 +195,7 @@
     "modelo":"",
     "precio":2000,
     "stock":4,
-    "img":"img/rines5.jpg"
+    "img":"/img/rines5.jpg"
     },
 
     {
@@ -206,7 +206,7 @@
     "modelo":"",
     "precio":1700,
     "stock":4,
-    "img":"img/rines6.jpg"
+    "img":"/img/rines6.jpg"
     },
 
     {
@@ -217,7 +217,7 @@
     "modelo": "",
     "precio": 80,
     "stock": 8,
-    "img": "img/aceite-1.jpg"
+    "img": "/img/aceite-1.jpg"
     },
 
     {
@@ -228,7 +228,7 @@
     "modelo": "",
     "precio": 80,
     "stock": 8,
-    "img": "img/aceite2.jpg"
+    "img": "/img/aceite2.jpg"
     },
 
     {
@@ -239,7 +239,7 @@
     "modelo":"",
     "precio":85,
     "stock":3,
-    "img":"img/aceite3.jpg"
+    "img":"/img/aceite3.jpg"
     },
     
     {
@@ -250,7 +250,7 @@
     "modelo":"",
     "precio":85,
     "stock":3,
-    "img":"img/aceite4.jpg"
+    "img":"/img/aceite4.jpg"
     },
 
     {
@@ -261,7 +261,7 @@
     "modelo":"",
     "precio":50,
     "stock":4,
-    "img":"img/refri1.jpg"
+    "img":"/img/refri1.jpg"
     },
 
     {
@@ -272,7 +272,7 @@
     "modelo":"",
     "precio":50,
     "stock":1,
-    "img":"img/refri3.jpg"
+    "img":"/img/refri3.jpg"
     },
 
     {
@@ -283,7 +283,7 @@
     "modelo":"",
     "precio":50,
     "stock":2,
-    "img":"img/refri2.jpg"
+    "img":"/img/refri2.jpg"
     },
     
     {
@@ -294,7 +294,7 @@
     "modelo":"",
     "precio":50,
     "stock":2,
-    "img":"img/h3.jpg"
+    "img":"/img/h3.jpg"
     },
 
     {
@@ -305,7 +305,7 @@
     "modelo":"",
     "precio":100,
     "stock":2,
-    "img":"img/h2.jpg"
+    "img":"/img/h2.jpg"
     },
 
     {
@@ -316,7 +316,7 @@
     "modelo":"",
     "precio":120,
     "stock":2,
-    "img":"img/h1.jpg"
+    "img":"/img/h1.jpg"
     },
 
     {
@@ -327,7 +327,7 @@
     "modelo":"",
     "precio":600,
     "stock":6,
-    "img":"img/asientos1.jpg"
+    "img":"/img/asientos1.jpg"
     },
 
     {
@@ -338,7 +338,7 @@
     "modelo":"",
     "precio":550,
     "stock":6,
-    "img":"img/asientos2.jpg"
+    "img":"/img/asientos2.jpg"
     },
 
     {
@@ -349,7 +349,7 @@
     "modelo":"",
     "precio":1100,
     "stock":4,
-    "img":"img/asientos4.jpg"
+    "img":"/img/asientos4.jpg"
     },
 
     {
@@ -360,7 +360,7 @@
     "modelo":"",
     "precio":350,
     "stock":4,
-    "img":"img/faros3.jpg"
+    "img":"/img/faros3.jpg"
     },
 
     {
@@ -371,7 +371,7 @@
     "modelo":"",
     "precio":200,
     "stock":10,
-    "img":"img/faros2.jpg"
+    "img":"/img/faros2.jpg"
     },
 
     {
@@ -382,7 +382,7 @@
     "modelo":"",
     "precio":170,
     "stock":8,
-    "img":"img/faros1.jpg"
+    "img":"/img/faros1.jpg"
     }
 
 ]
