@@ -25,32 +25,37 @@ const Categorias =()=>{
                             </Link>
                             <ul className="dropdown-menu">
                                 <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/1"}>
+                                    <Link className="dropdown-item" to={"/category/Alerones"}>
                                         Alerones
                                     </Link>
                                 </li>
                                 <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/1"}>
+                                    <Link className="dropdown-item" to={"/category/Rin"}>
                                         Rines
                                     </Link>
                                 </li>
                                 <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/1"}>
+                                    <Link className="dropdown-item" to={"/category/Difusores"}>
+                                        Difusores
+                                    </Link>
+                                </li>
+                                <li className= "nav-item">
+                                    <Link className="dropdown-item" to={"/category/Asientos"}>
                                         Asientos
                                     </Link>
                                 </li>
                                 <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/1"}>
+                                    <Link className="dropdown-item" to={"/category/Radios"}>
                                         Radios
                                     </Link>
                                 </li>
                                 <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/1"}>
+                                    <Link className="dropdown-item" to={"/category/Aceites y Refrigerantes"}>
                                         Aceites y Refrigerantes
                                     </Link>
                                 </li>
                                 <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/1"}>
+                                    <Link className="dropdown-item" to={"/category/Iluminacion"}>
                                         Iluminacion
                                     </Link>
                                 </li>
@@ -60,7 +65,7 @@ const Categorias =()=>{
                                 </li>
                                 {/* divisor */}
                                 <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/1"}>
+                                    <Link className="dropdown-item" to={"/category/Herramientas"}>
                                     Herramientas
                                     </Link>
                                 </li>
