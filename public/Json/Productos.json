@@ -20,19 +20,6 @@
     "stock":7,
     "img":"/img/aleron2.jpg"
     },
-
-    {
-    "Id":3,
-    "idCategoria":"1",
-    "nombre":"Alerones",
-    "marca":"",
-    "modelo":"",
-    "precio":1500,
-    "stock":1,
-    "img":"/img/aleron3.jpg"
-
-    },
-
     {
     "id":4,
     "idCategoria":"1",
@@ -217,7 +204,7 @@
     "modelo": "",
     "precio": 80,
     "stock": 8,
-    "img": "/img/aceite-1.jpg"
+    "img": "/img/aceite1.jpg"
     },
 
     {
