@@ -1,6 +1,7 @@
 import  {useEffect, useState} from "react"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import { useParams } from "react-router-dom"
+import { getProducts } from "../../firebase/firebase.js"
 
 
 const ItemDetailContainer = () => {
@@ -8,13 +9,8 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState([])
     const {id} =useParams()
     useEffect(() => {
-        fetch('../json/productos.json')
-            .then(response => response.json())
-            .then(productos => {
-                const prod = productos.find(prod => prod.id===parseInt(id))
-                setItem(prod)
-            })
-
+        getProducts()
+            .then(prod => {setItem(prod)})
     },)
 
     return (

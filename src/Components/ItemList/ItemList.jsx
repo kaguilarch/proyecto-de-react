@@ -1,4 +1,6 @@
 import Item from "../Item/Item"
+import ItemCart from "../ItemCart/ItemCart"
+
 const ItemList = ({productos, plantilla}) => {
 
     return (
@@ -8,7 +10,7 @@ const ItemList = ({productos, plantilla}) => {
                 ?
                 productos.map(producto => <Item key={producto.id} item={producto} />)
                 :
-                productos.map(producto => <Item key={producto.id} item={producto} />)
+                productos.map(producto => <ItemCart key={producto.id} item={producto} />)
             }
         </>
     )

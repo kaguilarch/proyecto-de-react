@@ -18,7 +18,7 @@ const Categorias =()=>{
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                        <Link class=" text-light nav-link" to={"/Checkout"}>Inicio de sesion</Link>
+                        <Link className=" text-light nav-link" to={"/Checkout"}>Inicio de sesion</Link>
                         </li>
                         <li className="nav-item dropdown d-flex">
                             <Link

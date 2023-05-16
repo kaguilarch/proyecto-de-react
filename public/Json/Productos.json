@@ -7,280 +7,290 @@
     "modelo":"Estandar",
     "precio":1200,
     "stock":4,
-    "img":"/img/aleron1.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aleron1.jpg?alt=media&token=1212373f-08d0-473e-bd36-4eda475822e2"
     },
 
     {
     "id":2,
     "idCategoria":"Alerones",
     "nombre":"Alerones",
-    "marca":"",
-    "modelo":"",
+    "marca":"deayer",
+    "modelo":"2000",
     "precio":1200,
     "stock":7,
-    "img":"/img/aleron2.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aleron2.jpg?alt=media&token=a4004097-b846-4a6b-be91-7e68a6605c00"
     },
     {
     "id":4,
     "idCategoria":"Alerones",
     "nombre":"Alerones",
-    "marca":"",
-    "modelo":"",
+    "marca":"honda",
+    "modelo":"2001",
     "precio":1500,
     "stock":5,
-    "img":"/img/aleron4.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aleron3.jpg?alt=media&token=550bc722-0774-402e-8247-52c33bfca0a3"
     },
 
     {
     "id":5,
     "idCategoria":"Alerones",
     "nombre":"Alerones",
-    "marca":"",
-    "modelo":"",
+    "marca":"Mitsubichi",
+    "modelo":"Supreme",
     "precio":1700,
     "stock":3,
-    "img":"/img/aleron5.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aleron5.jpg?alt=media&token=3f62b4d4-3e79-4566-9345-603fea0d4309"
     },
 
     {
     "id":6,
     "idCategoria":"Difusores",
     "nombre":"Difusor",
-    "marca":"",
-    "modelo":"",
+    "marca":"Honda",
+    "modelo":"2006",
     "precio":800,
     "stock":3,
-    "img":"/img/difusor1.jpg"  
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/difusor1.jpg?alt=media&token=720a98ab-7b1d-4d25-8510-468807e6d9e7"  
     },
 
     {
     "id":7,
     "idCategoria":"Difusores",
     "nombre":"Difusor",
-    "marca":"",
-    "modelo":"",
+    "marca":"Subaru",
+    "modelo":"1998",
     "precio":800,
     "stock":5,
-    "img":"/img/difusor2.jpg" 
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/difusor2.jpg?alt=media&token=5166fd16-58c9-4ff8-b54e-6856b3b16584" 
     },
 
     {
     "id":8,
     "idCategoria":"Difusores",
     "nombre":"Difusor",
-    "marca":"",
-    "modelo":"",
+    "marca":"Subaru",
+    "modelo":"2000",
     "precio":500,
     "stock":5,
-    "img":"/img/difusor3.jpg" 
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/difusor3.jpg?alt=media&token=cd2f789f-2262-4fa1-90e6-4f8f13e94f58" 
     },
 
     {
     "id":11,
     "idCategoria":"Radios",
     "nombre":"Radios y Pantallas",
-    "marca":"",
-    "modelo":"",
+    "marca":"Sony",
+    "modelo":"doble din",
     "precio":250,
     "stock":2,
-    "img":"/img/radio3.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/radio1.jpg?alt=media&token=5a526bf1-3aa8-42da-bbc0-dfc05739f6be"
     },
 
     {
     "id":12,
     "idCategoria":"Radios",
     "nombre":"Radios y Pantallas",
-    "marca":"",
-    "modelo":"",
+    "marca":"Keywood",
+    "modelo":"doble din",
     "precio":300,
     "stock":6,
-    "img":"/img/radio4.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/radio2.jpg?alt=media&token=c1e702de-9174-4140-a045-84abe2954382"
     },
 
     {
     "id":13,
     "idCategoria":"Radios",
     "nombre":"Radios y Pantallas",
-    "marca":"",
-    "modelo":"",
+    "marca":"Pioneer",
+    "modelo":"doble din",
     "precio":700,
     "stock":1,
-    "img":"/img/radio5.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/radio3.jpg?alt=media&token=f8390108-8ec7-4d0c-a1e2-dbe0feace420"
     },
     {
     "id":20,
     "idCategoria":"Aceites y Refrigerantes",
     "nombre": "Aceites",
-    "marca": "",
-    "modelo": "",
+    "marca": "Mobil super",
+    "modelo": "10w-40",
     "precio": 80,
     "stock": 8,
-    "img": "/img/aceite1.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aceite1.jpg?alt=media&token=6db8f95b-6c09-479b-9fd4-cf7d51e2448d"
     },
 
     {
     "id":21,
     "idCategoria":"Aceites y Refrigerantes",
     "nombre": "Aceites",
-    "marca": "",
-    "modelo": "",
+    "marca": "Castrol",
+    "modelo": "5W-30",
     "precio": 80,
     "stock": 8,
-    "img": "/img/aceite2.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aceite2.jpg?alt=media&token=bbcd818c-36bf-4bc7-adf7-de4fb8dbcb5f"
     },
 
     {
     "id":22,
     "idCategoria":"Aceites y Refrigerantes",
     "nombre":"Aceites",
-    "marca":"",
-    "modelo":"",
+    "marca":"Auto-Style",
+    "modelo":"20w-50",
     "precio":85,
     "stock":3,
-    "img":"/img/aceite3.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aceite3.jpg?alt=media&token=41e19bb4-b356-437f-a5f4-c04e500a03b2"
     },
     
     {
     "id":23,
     "idCategoria":"Aceites y Refrigerantes",
     "nombre":"Aceites",
-    "marca":"",
-    "modelo":"",
+    "marca":"Auto-Style",
+    "modelo":"15w-40",
     "precio":85,
     "stock":3,
-    "img":"/img/aceite4.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/aceite4.jpg?alt=media&token=09bcd678-0a44-4cd1-9c1c-d48f009714e9"
     },
 
     {
     "id":24,
     "idCategoria":"Aceites y Refrigerantes",
     "nombre":"Refrigerante",
-    "marca":"",
-    "modelo":"",
+    "marca":"Simoniz",
+    "modelo":"-",
     "precio":50,
     "stock":4,
-    "img":"/img/refri1.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/refri3.jpg?alt=media&token=ef4f22e3-adb5-4200-833c-6793932187a1"
     },
 
+    {
+    "id":3,
+    "idCategoria":"Radios",
+    "nombre":"Radios y Pantallas",
+    "marca":"Pioneer",
+    "modelo":"doble din",
+    "precio":300,
+    "stock":6,
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/radio5.jpg?alt=media&token=9802a27c-2981-42fe-a9e1-9fc3bf35893d"
+    },
     {
     "id":25,
     "idCategoria":"Aceites y Refrigerantes",
     "nombre":"Refrigerante",
-    "marca":"",
-    "modelo":"",
+    "marca":"Simoniz",
+    "modelo":"-",
     "precio":50,
     "stock":1,
-    "img":"/img/refri3.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/refri1.jpg?alt=media&token=8d7a0468-0c66-43b1-9b7b-408067f7ad5f"
     },
 
     {
     "id":26,
     "idCategoria":"Aceites y Refrigerantes",
     "nombre":"Refrigerante",
-    "marca":"",
-    "modelo":"",
+    "marca":"Simoniz",
+    "modelo":"-",
     "precio":50,
     "stock":2,
-    "img":"/img/refri2.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/refri2.jpg?alt=media&token=e164bf5c-64af-4774-91d5-1924fbef0fa1"
     },
     
     {
     "id":27,
     "idCategoria":"Herramientas",
     "nombre":"Herramientas",
-    "marca":"",
-    "modelo":"",
+    "marca":"epa",
+    "modelo":"epa",
     "precio":50,
     "stock":2,
-    "img":"/img/h3.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/h3.jpg?alt=media&token=45712fbd-a73d-4638-8212-655776c10958"
     },
 
     {
     "id":28,
     "idCategoria":"Herramientas",
     "nombre":"Herramientas",
-    "marca":"",
-    "modelo":"",
+    "marca":"epa",
+    "modelo":"epa",
     "precio":100,
     "stock":2,
-    "img":"/img/h2.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/h1.jpg?alt=media&token=c1e29f37-dc71-4af1-a70b-9c34a5da9c30"
     },
 
     {
     "id":29,
     "idCategoria":"Herramientas",
     "nombre":"Herramientas",
-    "marca":"",
-    "modelo":"",
+    "marca":"epa",
+    "modelo":"epa",
     "precio":120,
     "stock":2,
-    "img":"/img/h1.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/h2.jpg?alt=media&token=90e1af7a-b3c8-4510-8b62-806cf441c670"
     },
 
     {
     "id":30,
     "idCategoria":"Asientos",
     "nombre":"Asientos",
-    "marca":"",
-    "modelo":"",
+    "marca":"Recaro",
+    "modelo":"Street",
     "precio":600,
     "stock":6,
-    "img":"/img/asientos1.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/asientos1.jpg?alt=media&token=04b32b6e-536b-4881-af11-b9df0957a524"
     },
 
     {
     "id":31,
     "idCategoria":"Asientos",
     "nombre":"Asientos",
-    "marca":"",
-    "modelo":"",
+    "marca":"Toyota",
+    "modelo":"Street",
     "precio":550,
     "stock":6,
-    "img":"/img/asientos2.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/asientos2.jpg?alt=media&token=403d18b0-497d-4959-8570-dfc985924d33"
     },
 
     {
     "id":32,
     "idCategoria":"Asientos",
     "nombre":"Asientos",
-    "marca":"",
-    "modelo":"",
+    "marca":"Recaro",
+    "modelo":"Street",
     "precio":1100,
     "stock":4,
-    "img":"/img/asientos4.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/asientos3.jpg?alt=media&token=f8b03985-a696-42e9-8b42-33e7615bbdac"
     },
 
     {
     "id":33,
     "idCategoria":"Iluminacion",
     "nombre":"Faros delanteros",
-    "marca":"",
-    "modelo":"",
+    "marca":"Mitsubishi",
+    "modelo":"2000",
     "precio":350,
     "stock":4,
-    "img":"/img/faros3.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/faros1.jpg?alt=media&token=7aae2402-8418-4120-99a3-e26032b363f0"
     },
 
     {
     "id":34,
     "idCategoria":"Iluminacion",
     "nombre":"Faros delanteros",
-    "marca":"",
-    "modelo":"",
+    "marca":"Honda",
+    "modelo":"1998",
     "precio":200,
     "stock":10,
-    "img":"/img/faros2.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/faros2.jpg?alt=media&token=e7b2cc5b-57cf-4f1e-a6fa-7a722db28fac"
     },
 
     {
     "id":35,
     "idCategoria":"Iluminacion",
     "nombre":"Faros delanteros",
-    "marca":"",
-    "modelo":"",
+    "marca":"Toyota",
+    "modelo":"2002",
     "precio":170,
     "stock":8,
-    "img":"/img/faros1.jpg"
+    "img":"https://firebasestorage.googleapis.com/v0/b/proyecto-react-610f7.appspot.com/o/faros3.jpg?alt=media&token=b9085d67-64f4-4757-b9a1-31085f644e2c"
     }
 
 ]
