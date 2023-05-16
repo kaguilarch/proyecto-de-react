@@ -1,4 +1,4 @@
-import useCount from "../hooks/useCount"
+import useCount from "../../hooks/useCount"
 
 const ItemCount = ({ ValInicial, min, max, onAdd }) => {
 
