@@ -29,11 +29,7 @@ const Categorias =()=>{
                                         Alerones
                                     </Link>
                                 </li>
-                                <li className= "nav-item">
-                                    <Link className="dropdown-item" to={"/category/Rin"}>
-                                        Rines
-                                    </Link>
-                                </li>
+                                
                                 <li className= "nav-item">
                                     <Link className="dropdown-item" to={"/category/Difusores"}>
                                         Difusores
