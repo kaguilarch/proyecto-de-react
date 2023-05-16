@@ -1,17 +1,18 @@
 import  {useEffect, useState} from "react"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import { useParams } from "react-router-dom"
-import { getProducts } from "../../firebase/firebase.js"
+import { getProduct } from "../../firebase/Firebase.js"
 
 
 const ItemDetailContainer = () => {
 
     const [item, setItem] = useState([])
-    const {id} =useParams()
+    const { id } = useParams()
+
     useEffect(() => {
-        getProducts()
-            .then(prod => {setItem(prod)})
-    },)
+        getProduct(id).then(prod => setItem(prod))
+
+    }, [])
 
     return (
         <div className="card mb-3 container itemDetail">

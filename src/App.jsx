@@ -5,7 +5,7 @@ import ItemListContainer from "./Components/ItemListContainer/ItemListContainer"
 import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer";
 import Checkout from "./Components/Checkout/Checkout";
 import Cart from "./Components/Cart/Cart";
-//  import { createProducts,} from "./firebase/firebase";
+//  import { createProducts,} from "./firebase/Firebase";
 function App () {
   // createProducts()
   return(
