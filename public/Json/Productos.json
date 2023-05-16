@@ -76,28 +76,6 @@
     },
 
     {
-    "Id":9,
-    "IdCategoria":"Radios",
-    "nombre":"Radios y Pantallas",
-    "marca":"",
-    "modelo":"",
-    "precio":500,
-    "stock":6,
-    "img":"/img/radio1.jpg"
-    },
-
-    {
-    "Id":10,
-    "IdCategoria":"Radios",
-    "nombre":"Radios y Pantallas",
-    "marca":"",
-    "modelo":"",
-    "precio":250,
-    "stock":2,
-    "img":"/img/radio2.jpg"
-    },
-
-    {
     "id":11,
     "idCategoria":"Radios",
     "nombre":"Radios y Pantallas",

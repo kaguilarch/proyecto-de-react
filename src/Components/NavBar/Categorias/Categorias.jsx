@@ -17,7 +17,10 @@ const Categorias =()=>{
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item dropdown">
+                        <li className="nav-item">
+                        <Link class=" text-light nav-link" to={"/Checkout"}>Inicio de sesion</Link>
+                        </li>
+                        <li className="nav-item dropdown d-flex">
                             <Link
                             className=" text-light nav-link dropdown-toggle"
                             href="#Productos"role="button"data-bs-toggle="dropdown"aria-expanded="false">
