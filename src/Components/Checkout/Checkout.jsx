@@ -1,6 +1,7 @@
 import { useRef } from "react"
 import { useCarritoContext } from "../../context/CartContext"
 import { Link } from "react-router-dom"
+import { createOrdenCompra, getProduct, updateProduct } from "../../firebase/Firebase.js"
 const Checkout = () => {
 
     const datForm = useRef()
@@ -12,7 +13,29 @@ const Checkout = () => {
         const datosFormulario = new FormData(datForm.current)
         const cliente = Object.fromEntries(datosFormulario)
         console.log(cliente)
-        e.target.reset()
+
+        const aux =[...carrito]
+        aux.forEach(prodCarrito => {
+              getProduct(prodCarrito.id).then(prodBBD =>{
+                if(prodBBD.stock >= prodCarrito.quantity){
+                    prodBBD.stock -=prodCarrito.quantity
+                    updateProduct(prodCarrito.id, prodBBD)
+                }
+                else{
+                    console.log("la compra no es igual al stock")
+                }
+              })  
+        })
+        const aux2 = aux.map(prod => ({ id: prod.id, quantity: prod.quantity, precio: prod.precio }));
+
+        createOrdenCompra(cliente, totalPrice(), aux2, new Date().toLocaleString('es-AR', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone })).then (ordenCompra=>{
+            console.log(`muchas gracias por la compra su orden es ${ordenCompra.id}por un toltal de ${totalPrice()}`)
+            emptyCart()
+                e.target.reset()
+            })
+            .catch(error => {
+                console.error(error)
+            })
     }
     return (
         <>
